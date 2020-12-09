@@ -1,5 +1,5 @@
-const bcrypt = require("bcryptjs")
-const config = require("../config")
+const bcrypt = require("bcryptjs");
+const config = require("../config");
 
 class UserService {
   constructor({ logger, userModel }) {
