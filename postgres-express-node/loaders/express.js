@@ -14,7 +14,7 @@ module.exports = ({ app, HttpLogger: logger }) => {
   app.use(cors());
   app.use(express.json());
   app.use(express.urlencoded({ extended: false }));
-  app.use(
+  sapp.use(
     jwt({
     algorithms: config.jwt.algorithms,
     secret: config.jwt.secret,
